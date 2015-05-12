@@ -1,4 +1,149 @@
 body {
-	background-color: grey;
-	color: pink;
+	font-family: 'Anaheim', sans-serif;
 }
+
+a {
+	color: #09C;
+	text-decoration: none;
+}
+
+#organ {
+	width: 15%;
+	border-radius: 50%;
+	border-width: 50px;
+	background-color: white;
+	padding: 7%;
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+
+div {
+	text-align: center;
+}
+
+#one {
+	background-image: url(pattern.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#two {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+#three {
+	background-color: #9DEBF6;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-right: 20%;
+	padding-left: 20%;
+}
+
+#four {
+	background-color: #F69;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-right: 20%;
+	padding-left: 20%;
+}
+
+#five {
+	background-color: #CC0;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-right: 20%;
+	padding-left: 20%;
+}
+
+#five a {
+	color: #000;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+h1 {
+	color: #F6C;
+	margin: auto;
+}
+
+
+
+#ima {
+	height: 100px;
+	border-radius: 50%;
+	margin: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+div ul {
+	list-style: none;
+	display: inline-block;
+}
+
+div ul li {
+	float: left;
+	padding: 25px;
+}
+
+
+
+nav ul {
+	list-style: none;
+	display: inline-block;
+}
+ 
+nav ul li {
+	float: left;
+	padding: 15px;
+}
+
+
+
+
+@media only screen and (max-width: 400px) {
+	img {
+		display: none;
+	}
+}
+
+	
+@media only  screen and (max-width: 1000px) {
+   body {
+     background: #FFF;
+         }
+    }
+
+
+
+@media only  screen and (max-width: 700px) {
+
+body {
+     background: #CCC;
+         }
+   
+
+    
+.spin {-webkit-animation: cssAnimation 2.561s  11 ease;
+		-moz-animation: cssAnimation 2.561s  11 ease;
+		-o-animation: cssAnimation 2.561s  11 ease;} 
+		
+		@-webkit-keyframes cssAnimation 
+		{from { -webkit-transform:  rotate(0deg); }  to { -webkit-transform:  rotate(360deg) } } 
+		
+		@-moz-keyframes cssAnimation 
+		{from { -moz-transform:  rotate(0deg) ; }  to { -moz-transform:  rotate(360deg); } } 
+		
+		@-o-keyframes cssAnimation 
+		{from { -o-transform:  rotate(0deg); }  to { -o-transform:  rotate(360deg); } }
+	}
+
+@media only  screen and (max-width: 400px) {
+   body {
+     background: #333;
+         }
+    }
+
