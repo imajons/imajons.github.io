@@ -1,1 +1,99 @@
-<h1>Ima Jonsdottir's GitHub Page</h>
+<!doctype html>
+
+<title>Ima Jonsdottir's GitHub page</title>
+
+<head>
+
+<link href='http://fonts.googleapis.com/css?family=Anaheim' rel='stylesheet' type='text/css'>
+
+<link href='styles.css' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+<body>
+
+<a id="top">
+
+
+<div id="one">
+
+<img class="spin" id="organ" src="Organ.png" alt="illustration by Ima Jonsdottir"/>
+
+</div>
+
+<div id="two">
+
+<h1>Ima Jonsdottir - Doodles & Code</h1>
+
+
+
+<nav>
+	<ul>
+		<li><a href="#1">About</a></li>
+		<li><a href="#2">Projects</a></li>
+		<li><a href="#3">Contact</a></li>
+	</ul>
+</nav>
+
+</div>
+
+
+<div class="main" id="three">
+
+	<h2><a id="1"></a>About</h2>
+	<p>Well, here I am, nerding around GitHub, having no clue what awaits.  What I do know is that I like colors, shapes, and patterns, usually in the form of a doodle, so there you go.</p>  
+
+	<p>As of spring 2015 I am brand new to all things Git, but I am excited to dive in and learn from you all.  To get me going I plan on looking for answers to all kinds of basic questions, mostly through Skillcrush where I am training to become a WordPress Developer.<a href="#top"><p>back to top</p></a></p>
+    
+</div>
+
+	
+<div id="four">
+	
+    <h2><a id="2"></a>Projects</h2>
+	<p>Having studied graphic design and illustration at the MFA school, I have a particular interest in finding ways to tell a story through doodles and code.  My first attempt at this was a project for school where I designed an interactive poetry website at <a href="http://www.beggaki.com">www.beggaki.com.</a>  As a web developer I want to bring out each client's unique story, and find a framework for it that expresses all they have to offer.  Wish me luck!<a href="#top"><p>back to top</p></a></p>
+    
+</div>
+
+<div id="five">
+
+    
+    <h2><a id="3"></a>Contact</h2>
+    
+    
+	 
+    	<p><a href="mailto:imajons@mac.com">e-mail</a></p>
+		<p><a href="tel:6177343599">617-734-3599</a></p>
+		<p><a href="http://www.knoworchestra.com">www.knoworchestra.com</a></p>
+    
+    	<p><img id="ima" src="2nd-self-portrait.gif" alt="Ima Jonsdottir"></p>
+    
+		<p><a href="#top">back to top</a></p>
+
+
+</div>
+	
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script>
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	});
+</script>
+
+
+</body>
+
+</html>
